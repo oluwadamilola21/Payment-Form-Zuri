@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    background:skyblue;
+}
+
+.wrapper{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    
+}
+.wrapper h2 {
+    background-color:  rgb(30, 30, 119);
+    font-size: 2rem;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: cursive;
+}
+.wrapper h4 {
+    font-size: 1.3rem;
+    padding:10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    color: blue;
+    text-transform: capitalize;
+}
+.wrapper form {
+    padding: 10px 20px;
+}
+
+.input-box {
+    position: relative;
+    max-width: 100%;
+    color: black;
+}
+
+/* .input-box input {
+    width:350px;
+    padding:10px 20px;
+    background: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 15px;
+    font-size:15px;
+    padding-right: 40px;
+} */
+.input-box ::placeholder {
+    color: rgb(30, 30, 119);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+.input-box :hover {
+    color: blue;
+}
+.input-box .name {
+    width: 90%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    outline: none;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px;
+}
+
+.input-box .dob {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 2px;
+    box-shadow: 2px 2px 3px 2px;
+    text-align: left;
+}
+
+.input-box label {
+    color: rgb(30, 30, 119);
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.input-box .radio {
+    margin-left: 20px;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding-right: 5px;
+    
+}
+
+.fa-envelope {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    padding: 5px;
+}
+
+.input-box .fa-cc-visa {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+.input-box .fa-cc-paypal {
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.input-box .fa-user {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    padding: 5px;
+}
+
+
+.input-box input[type=tel]{
+    width: 90%;
+    padding: 10px 20px;
+    outline: none;
+    margin-top: 15px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 3px 2px;
+    border-radius: 10px;
+}
+
+.input-box select {
+    width: 30%;
+    margin: 5px 0;
+    padding: 3px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 16px; 
+    box-shadow: 2px 2px 3px 2px;
+    font-family: cursive;
+    font-weight: bolder;
+    color:  rgb(30, 30, 119);
+
+}
+
+.input-box button {
+    background: dodgerblue;
+    width: 30%;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: cursive;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 570px) {
+    .wrapper { 
+        width: 90%;
+    }
+.wrapper h2 {
+    padding: 3px;
+    }
+    
+}
+ 
